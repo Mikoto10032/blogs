@@ -2,3 +2,7 @@
 	path = themes/jane
 	url = https://github.com/xianmin/hugo-theme-jane.git
 	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:Mikoto10032/Mikoto10032.github.io.git
+	branch = master
