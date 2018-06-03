@@ -9,6 +9,7 @@ categories:
 comment: true
 ---
 # DeepLearning
+
 ## 入门资料
 * [1. 《深度学习》 Yoshua Bengio.Ian GoodFellow](https://github.com/Mikoto10032/DeepLearning/blob/master/books/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.Yoshua%20Bengio%2BIan%20GoodFellow.pdf)
 * [2. 《机器学习》 周志华](https://github.com/Mikoto10032/DeepLearning/blob/master/books/机器学习周志华.pdf)
@@ -27,6 +28,7 @@ comment: true
 * [11. 深度学习 李飞飞 已授权个人翻译笔记](https://zhuanlan.zhihu.com/p/21930884)        
     * [视频](http://study.163.com/course/courseMain.htm?courseId=1003223001)
 * [12. 台湾大学（NTU）李宏毅教授课程](http://speech.ee.ntu.edu.tw/~tlkagk/index.html)
+
 ## 神经网络模型概览
 * [1. 一文看懂25个神经网络模型](https://blog.csdn.net/qq_35082030/article/details/73368962)
 * [2. DNN概述论文：详解前馈、卷积和循环神经网络技术](https://zhuanlan.zhihu.com/p/29141828)
@@ -108,6 +110,7 @@ comment: true
 * [用tensorflow LSTM如何预测股票价格](https://zhuanlan.zhihu.com/p/33186759)
 * [TensorFlow的多层LSTM实践](https://zhuanlan.zhihu.com/p/29797089)
 * [《安娜卡列尼娜》文本生成——利用TensorFlow构建LSTM模型](https://zhuanlan.zhihu.com/p/27087310)
+
 ## 前沿神经网络    
 ### ResNet(深度残差网络)            
 * [一文简述ResNet及其多种变体](https://zhuanlan.zhihu.com/p/35985680?group_id=971491939699388416)
@@ -122,6 +125,7 @@ comment: true
 ### YOLO(You only look once,目标检测模型)  
 * [目标检测模型YOLO v3问世](https://zhuanlan.zhihu.com/p/34995629)
 * [目标检测|YOLOv2原理与实现(附YOLOv3)](https://zhuanlan.zhihu.com/p/35325884?group_id=966229905398362112)
+
 ## 优化    
 * [1. 优化算法纵览](http://fa.bianp.net/teaching/2018/eecs227at/)
 * [2. 从梯度下降到Adam](https://zhuanlan.zhihu.com/p/27449596)
@@ -144,10 +148,12 @@ comment: true
 * [17. FAIR何恺明等人提出组归一化：替代批归一化，不受批量大小限制](https://zhuanlan.zhihu.com/p/34858971)
 * [18. <深度学习优化策略-1>Batch Normalization（BN）](https://zhuanlan.zhihu.com/p/26702482)
 * [19. 详解深度学习中的Normalization，不只是BN](https://zhuanlan.zhihu.com/p/33173246)
+
 ## 机器学习基础理论    
 ### 信息论
 * [1. 机器学习中的各种熵](https://zhuanlan.zhihu.com/p/35423404)    
 * [2. 从香农熵到手推KL散度：纵览机器学习中的信息论](https://zhuanlan.zhihu.com/p/32985487)
+
 ## 深度学习相关算法    
 ### SVD
 * [1. 关于奇异值分解SVD的总结（PCA、LDI）](https://zhuanlan.zhihu.com/p/30482640)
@@ -221,7 +227,8 @@ comment: true
 ### 集成(EM)
 * [集成学习法之bagging方法和boosting方法](https://blog.csdn.net/qq_30189255/article/details/51532442)
 * [Bagging,Boosting,Stacking](https://blog.csdn.net/Mr_tyting/article/details/72957853)
-* [人人都懂的EM算法 ](https://zhuanlan.zhihu.com/p/36331115)                      
+* [人人都懂的EM算法 ](https://zhuanlan.zhihu.com/p/36331115)    
+                 
 ## 工具平台使用  
 ### Tensorflow
 * [【干货】史上最全的Tensorflow学习资源汇总](https://zhuanlan.zhihu.com/p/35515805?group_id=967136289941897216)
@@ -239,6 +246,7 @@ comment: true
 * [4. 伯克利大学公开数据集](https://people.eecs.berkeley.edu/~taesung_park/)
 * [5. ACL 2018资源：100+ 预训练的中文词向量](https://zhuanlan.zhihu.com/p/36835964)
 * [6. 预训练中文词向量](https://github.com/Embedding/Chinese-Word-Vectors)
+
 ## To do list:
 * RNN、2014机器学习个人笔记、Mask R-CNN、RNN、cs231、2011机器学习个人笔记、深度学习
 * 将收藏过的文章转移到此项目
