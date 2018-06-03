@@ -1,5 +1,5 @@
 baseURL = "https://mikoto10032.github.io/"    #默认http://localhost:1313
-title = "Lianghaozan"
+title = "LiangHaozan的个人博客"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -18,7 +18,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
 
 [author]                  # essential                     # 必需
-  name = "Lianghaozan"
+  name = "LiangHaozan"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -59,7 +59,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "LiangHaozan"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","jane"]
   description = "Hugo theme jane example site."
 
@@ -119,13 +119,13 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:437082907@qq.com"
     b-stack-overflow = "http://localhost:1313"
     c-twitter = "http://localhost:1313"
     d-facebook = "http://localhost:1313"
     e-linkedin = "http://localhost:1313"
     f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
+    g-github = "https://github.com/Mikoto10032"
     h-weibo = "http://localhost:1313"
     i-zhihu = "http://localhost:1313"
     j-douban = "http://localhost:1313"
