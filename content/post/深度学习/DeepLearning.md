@@ -10,8 +10,8 @@ comment: true
 ---
 # DeepLearning
 ## 入门资料
-* [1. 《机器学习》 周志华](https://github.com/Mikoto10032/DeepLearning/blob/master/books/机器学习周志华.pdf)
-* [2. 《深度学习》 Yoshua+Bengio+Ian+GoodFellow](https://github.com/Mikoto10032/DeepLearning/blob/master/books/深度学习.DeepLearning.Yoshua%2BBengio%2BIan%2BGoodFellow中文版.pdf)
+* [1. 《深度学习》 Yoshua Bengio.Ian GoodFellow](https://github.com/Mikoto10032/DeepLearning/blob/master/books/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.Yoshua%20Bengio%2BIan%20GoodFellow.pdf)
+* [2. 《机器学习》 周志华](https://github.com/Mikoto10032/DeepLearning/blob/master/books/机器学习周志华.pdf)
 * [3. 《神经网络与深度学习》 Michael Nielsen](https://github.com/Mikoto10032/DeepLearning/blob/master/books/神经网络和深度学习neural%20networks%20and%20deep-learning-中文_ALL.pdf)    
 * [4. 《斯坦福大学深度学习基础教程》 Andrew Ng（吴恩达）](https://github.com/Mikoto10032/DeepLearning/blob/master/books/斯坦福大学-深度学习基础教程.pdf)      
 * [5. 《模式识别与机器学习》 Christopher Bishop](https://github.com/Mikoto10032/DeepLearning/blob/master/books/模式识别与机器学习PRML_Chinese_vision.pdf)
@@ -34,41 +34,49 @@ comment: true
 ### DNN
 * [DNN概述论文](https://zhuanlan.zhihu.com/p/29141828)
 ### CNN
+#### 发展史
+* [1. 94页论文综述卷积神经网络：从基础技术到研究前景](https://zhuanlan.zhihu.com/p/35388569)
+* [2. 从LeNet-5到DenseNet](https://zhuanlan.zhihu.com/p/31006686)
+* [3. CNN图像分割简史：从R-CNN到Mask R-CNN（译）](https://zhuanlan.zhihu.com/p/26652657)
+* [4. 深度学习之目标检测的前世今生（Mask R-CNN）](https://zhuanlan.zhihu.com/p/32830206)
+* [5. 纵览轻量化卷积神经网络：SqueezeNet、MobileNet、ShuffleNet、Xception](https://zhuanlan.zhihu.com/p/32746221)
+* [6. 深度学习目标检测模型全面综述：Faster R-CNN、R-FCN和SSD](https://zhuanlan.zhihu.com/p/29434605)
+* [7. 图像语义分割(Semantic segmentation) Survey](https://zhuanlan.zhihu.com/p/36801104)
+#### 教程
 * [1. 卷积神经网络工作原理](https://www.zhihu.com/question/39022858)
-* [2. 94页论文综述卷积神经网络：从基础技术到研究前景](https://zhuanlan.zhihu.com/p/35388569)
-* [3. 从LeNet-5到DenseNet](https://zhuanlan.zhihu.com/p/31006686)
-* [4. CNN变体：图像分类神经网络](https://zhuanlan.zhihu.com/p/35688103)
-* [5. CNN图像分割简史：从R-CNN到Mask R-CNN（译）](https://zhuanlan.zhihu.com/p/26652657)
-* [6. 变形卷积核、可分离卷积](https://zhuanlan.zhihu.com/p/28749411)
-* [7. 先理解Mask R-CNN的工作原理，然后构建颜色填充器应用](https://zhuanlan.zhihu.com/p/34816076)
-* [8. 深度学习之目标检测的前世今生（Mask R-CNN）](https://zhuanlan.zhihu.com/p/32830206)
-* [9. 从VGG到NASNet，一文概览图像分类网络](https://zhuanlan.zhihu.com/p/35221368)
-* [10. 一文简述ResNet及其多种变体](https://zhuanlan.zhihu.com/p/35985680)
-* [11. 纵览轻量化卷积神经网络：SqueezeNet、MobileNet、ShuffleNet、Xception](https://zhuanlan.zhihu.com/p/32746221)
-* [12. CNN模型之ShuffleNet](https://zhuanlan.zhihu.com/p/32304419)
-* [13. 将CNN引入目标检测的开山之作：R-CNN](https://zhuanlan.zhihu.com/p/23006190)
-* [14. 深度学习目标检测模型全面综述：Faster R-CNN、R-FCN和SSD](https://zhuanlan.zhihu.com/p/29434605)
-* [15. 图像语义分割(Semantic segmentation) Survey](https://zhuanlan.zhihu.com/p/36801104)
-* [16. 人脸检测和识别算法综述]()      
+* [2. 变形卷积核、可分离卷积](https://zhuanlan.zhihu.com/p/28749411)
+* [3. 先理解Mask R-CNN的工作原理，然后构建颜色填充器应用](https://zhuanlan.zhihu.com/p/34816076)
+* [4. 从VGG到NASNet，一文概览图像分类网络](https://zhuanlan.zhihu.com/p/35221368)
+* [5. 一文简述ResNet及其多种变体](https://zhuanlan.zhihu.com/p/35985680)
+* [6. CNN模型之ShuffleNet](https://zhuanlan.zhihu.com/p/32304419)
+* [7. 将CNN引入目标检测的开山之作：R-CNN](https://zhuanlan.zhihu.com/p/23006190)
+* [8. 人脸检测和识别算法综述]()      
     * [人脸检测算法综述 ](https://zhuanlan.zhihu.com/p/36621308)          
     * [人脸检测背景介绍和发展现状](https://zhuanlan.zhihu.com/p/32702868)
     * [人脸识别算法演化史](https://zhuanlan.zhihu.com/p/36416906)
     * [CascadeCNN](https://blog.csdn.net/shuzfan/article/details/50358809)  
     * [MTCNN](https://blog.csdn.net/qq_14845119/article/details/52680940)
-### GAN  
-* [1. GAN原理学习笔记](https://zhuanlan.zhihu.com/p/27295635)
-* [2. GAN学习指南：从原理入门到制作生成Demo](https://zhuanlan.zhihu.com/p/24767059)
-* [3. 机器之心GitHub项目：GAN完整理论推导与实现](https://zhuanlan.zhihu.com/p/29837245)
-* [4. 极端图像压缩的对抗生成网络](https://zhuanlan.zhihu.com/p/35783437?group_id=969598777652420608)
+* [9. 语义分割卷积神经网络快速入门](https://blog.csdn.net/qq_20084101/article/details/80455877)
+### GAN
+#### 发展史
 * [5. 千奇百怪的GAN变体](https://zhuanlan.zhihu.com/p/26491601)
-* [6. 台湾大学李宏毅GAN教程](https://www.youtube.com/watch?v=0CKeqXl5IY0&feature=youtu.be)
+#### 教程
+* [1. GAN原理学习笔记](https://zhuanlan.zhihu.com/p/27295635)
+* [2. 极端图像压缩的对抗生成网络](https://zhuanlan.zhihu.com/p/35783437?group_id=969598777652420608)
+* [3. 台湾大学李宏毅GAN教程](https://www.youtube.com/watch?v=0CKeqXl5IY0&feature=youtu.be)
     * [Basic](https://github.com/Mikoto10032/DeepLearning/blob/master/books/GAN-Basic%20Idea%20(2017.04.21).pdf)
     * [Improving](https://github.com/Mikoto10032/DeepLearning/blob/master/books/GAN-Improving%20GAN%20(2017.05.05).pdf)
-* [7. 2017年GAN 计算机视觉相关paper汇总](https://zhuanlan.zhihu.com/p/29882709)
-* [8. 在Keras上实现GAN：构建消除图片模糊的应用](https://zhuanlan.zhihu.com/p/35030377)
-* [9. CycleGAN：图片风格，想换就换 | ICCV 2017论文解读](https://zhuanlan.zhihu.com/p/34711316)
-* [10. Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
-### RNN      
+* [4. 2017年GAN 计算机视觉相关paper汇总](https://zhuanlan.zhihu.com/p/29882709)
+* [5. 在Keras上实现GAN：构建消除图片模糊的应用](https://zhuanlan.zhihu.com/p/35030377)
+* [6. CycleGAN：图片风格，想换就换 | ICCV 2017论文解读](https://zhuanlan.zhihu.com/p/34711316)
+* [7. Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
+#### Action
+* [1. GAN学习指南：从原理入门到制作生成Demo](https://zhuanlan.zhihu.com/p/24767059)
+* [2. 机器之心GitHub项目：GAN完整理论推导与实现](https://zhuanlan.zhihu.com/p/29837245)
+### RNN
+#### 发展史
+* [从90年代的SRNN开始，纵览循环神经网络27年的研究进展](https://zhuanlan.zhihu.com/p/32668465)
+#### 教程
 * [完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589)
 * [循环神经网络(RNN, Recurrent Neural Networks)介绍](https://blog.csdn.net/heyongluoyao8/article/details/48636251)
 * [RNN以及LSTM的介绍和公式梳理](https://blog.csdn.net/Dark_Scope/article/details/47056361)
@@ -83,11 +91,12 @@ comment: true
     * [word2vec原理(二) 基于Hierarchical Softmax的模型](http://www.cnblogs.com/pinard/p/7243513.html)
     * [word2vec原理(三) 基于Negative Sampling的模型 ](http://www.cnblogs.com/pinard/p/7249903.html)
     * [用gensim学习word2vec ](http://www.cnblogs.com/pinard/p/7278324.html)
-* [Action]()
-  * [tensorflow中RNNcell源码分析以及自定义RNNCell的方法](https://blog.csdn.net/liuchonge/article/details/78405185?locationNum=8&fps=1)
-  * [TensorFlow中RNN实现的正确打开方式](https://zhuanlan.zhihu.com/p/28196873)
-  * [TensorFlow RNN 代码](https://zhuanlan.zhihu.com/p/27906426)
-### LSTM  
+#### Action
+* [tensorflow中RNNcell源码分析以及自定义RNNCell的方法](https://blog.csdn.net/liuchonge/article/details/78405185?locationNum=8&fps=1)
+* [TensorFlow中RNN实现的正确打开方式](https://zhuanlan.zhihu.com/p/28196873)
+* [TensorFlow RNN 代码](https://zhuanlan.zhihu.com/p/27906426)
+### LSTM
+#### 教程
 * [1. （译）理解长短期记忆(LSTM) 神经网络](https://zhuanlan.zhihu.com/p/24018768)
 * [2. 一文读懂LSTM和RNN](https://zhuanlan.zhihu.com/p/35878575?group_id=970350175025385472)
 * [3. 探索LSTM：基本概念到内部结构](https://zhuanlan.zhihu.com/p/27345523)
@@ -95,10 +104,10 @@ comment: true
     * [深入理解 LSTM 网络 (一)](https://blog.csdn.net/matrix_space/article/details/53374040)
     * [深入理解 LSTM 网络 (二)](https://blog.csdn.net/matrix_space/article/details/53376870)
 * [LSTM](https://zhuanlan.zhihu.com/p/32085405)
-* [Action]()
-  * [用tensorflow LSTM如何预测股票价格](https://zhuanlan.zhihu.com/p/33186759)
-  * [TensorFlow的多层LSTM实践](https://zhuanlan.zhihu.com/p/29797089)
-  * [《安娜卡列尼娜》文本生成——利用TensorFlow构建LSTM模型](https://zhuanlan.zhihu.com/p/27087310)
+#### Action
+* [用tensorflow LSTM如何预测股票价格](https://zhuanlan.zhihu.com/p/33186759)
+* [TensorFlow的多层LSTM实践](https://zhuanlan.zhihu.com/p/29797089)
+* [《安娜卡列尼娜》文本生成——利用TensorFlow构建LSTM模型](https://zhuanlan.zhihu.com/p/27087310)
 ## 前沿神经网络    
 ### ResNet(深度残差网络)            
 * [一文简述ResNet及其多种变体](https://zhuanlan.zhihu.com/p/35985680?group_id=971491939699388416)
@@ -174,7 +183,8 @@ comment: true
 * [自然语言处理中的自注意力机制（Self-Attention Mechanism）](https://zhuanlan.zhihu.com/p/35041012)      
 * [YJango的Word Embedding--介绍](https://zhuanlan.zhihu.com/p/27830489)
 * [CMU&谷歌大脑提出新型问答模型QANet](https://zhuanlan.zhihu.com/p/37168143)
-### 物体检测相关算法
+### 语义分割相关算法
+* [干货 | 一文概览主要语义分割网络](https://blog.csdn.net/qq_20084101/article/details/80432960)
 * [深度学习中IU、IoU(Intersection over Union)](https://blog.csdn.net/iamoldpan/article/details/78799857)
 * [Selective Search for Object Detection ](https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/)[（译文）](https://blog.csdn.net/guoyunfei20/article/details/78723646)
 * [NMS——非极大值抑制](https://blog.csdn.net/shuzfan/article/details/52711706)
