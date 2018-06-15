@@ -14,7 +14,8 @@ comment: true
 * 必须创建一个仓库，名称为**username.github.io**，创建过程参考[该博客](https://keysaim.github.io/post/blog/2017-08-15-how-to-setup-your-github-io-blog/)
 * 创建一个仓库用来存放博客,名称随意，作者这里就命名为**blogs**
 * 创建一个仓库用来存放博客的评论（如果想要添加评论功能），作者这里就命名为**BlogsComments**		
-# 开始搭建		
+
+# 开始搭建	    	
 ## 安装Hugo	
 ### Windows用户	
 如果你安装了**Chocolatey**，那么你就可以执行如下命令来一键安装：`choco install hugo -confirm`		
@@ -31,6 +32,7 @@ comment: true
 	* 将exe可执行文件重命名为**hugo.exe**	
 	* 将hugo.exe的全路径添加至你的系统环境变量，确认你能在cmd窗口下执行`hugo help`命令
 * 至此，Hugo安装完毕
+
 ### MAC用户	
 Hugo安装十分简单，在MAC的终端执行命令：
 `brew install hugo`
@@ -40,14 +42,17 @@ Hugo安装十分简单，在MAC的终端执行命令：
 	* `hugo new site example.com`
 * 现在生成了C:\Hugo\Sites\example.com的目录
 * 可以本地查看静态网页
+
 ## 用Hugo建站		
 ### 初始化博客站			
 `hugo new site blogs`		
 ### git init	
 * `cd blogs`
 * `git init`
+
 ### 指定github源		
-* `git remote add origin git@github.com:Mikoto10032/blogs.git`			
+* `git remote add origin git@github.com:Mikoto10032/blogs.git`
+
 ## 添加主题 	
 
 		git submodule add -b master https://github.com/xianmin/hugo-theme-jane.git themes/jane
@@ -83,20 +88,21 @@ baseURL是你博客最终部署的网站的url，基于github.io的话就应该�
 		defaultContentLanguage = "zh-cn"
 		[Languages.zh-cn]
   		languageCode = "zh-cn"
+
 ## 编辑博客		
 默认情况下，Jane主题将博文放在content/post/下面，你需要在这下面编辑你的博文。Hugo是支持分目录的，这点非常好		
 博客的头部可以这样子写：
 
-	---
-	date: 2018-03-22
-	title: "如何在github.io搭建Hugo博客"
-	tags:
-   	- 教程
-   	- github
-	categories:
-   	- github
-	comment: true
-	---
+		---
+		date: 2018-03-22
+		title: "如何在github.io搭建Hugo博客"
+		tags:
+		- 教程
+		- github
+		categories:
+		- github
+		comment: true
+		---
 编辑完成后可以git提交：
 
 	git add xxxx
