@@ -17,11 +17,12 @@ comment: true
 
 # 开始搭建	    	
 ## 安装Hugo	
+
 ### Windows用户	
 如果你安装了**Chocolatey**，那么你就可以执行如下命令来一键安装：`choco install hugo -confirm`		
 
 否则，就要手动安装：			
-
+* 安装[Go](https://golang.org/doc/install?download=go1.10.3.windows-amd64.msi)
 * 创建相应文件夹			
 	* 创建 D:\Hugo 文件夹
 	* 创建 D:\Hugo\bin 文件夹
