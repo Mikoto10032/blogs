@@ -128,10 +128,10 @@ OmegaOptions.bak
 - [x] 然后在Chrome里打开`chrome://extensions`，把SwitchyOmega.crx文件拖放到扩展程序页面，点击添加扩展程序进行安装。
 - [x] 打开SwitchyOmega的设置页面，跳过设置向导，点击导入/导出、从备份文件恢复、找到OmegaOptions.bak打开，恢复完成后点击应用选项,可以点击扩展设置选择直连、代理还是自动切换。
 
-***参考：***
-[1] https://www.jianshu.com/p/c336fd0bdfbe
-[2] https://blog.csdn.net/sinat_38245860/article/details/78698593
-[3] https://blog.csdn.net/suz_cheney/article/details/73478360
+***参考：***					
+[1] https://www.jianshu.com/p/c336fd0bdfbe			
+[2] https://blog.csdn.net/sinat_38245860/article/details/78698593		
+[3] https://blog.csdn.net/suz_cheney/article/details/73478360		
 [4] https://blog.csdn.net/xs18952904/article/details/80272579
 
  
