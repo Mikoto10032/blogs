@@ -33,7 +33,7 @@ cd /aria2
 vi aria2.conf
 ```
 
-* **编辑aria2.conf	**	
+* **编辑aria2.conf**	
 
 ```	
 #允许rpc
@@ -124,7 +124,7 @@ bt-save-metadata=true
 #定时保存会话，需要1.16.1之后的某个release版本
 #save-session-interval=60
 ```    	
-* **启动aria2	**	
+* **启动aria2**	
 
 
     aria2c --conf-path=/aria2/aria2.conf -D
@@ -299,7 +299,7 @@ snap install nextcloud
 
 PS：[aria2实现下载上传到GoogleDrive](test)			
 
-参考：
-[1] [https://www.orgleaf.com/2203.html](https://www.orgleaf.com/2203.html)	
-[2] [https://www.orgleaf.com/2224.html](https://www.orgleaf.com/2224.html)
+参考：			
+[1] [https://www.orgleaf.com/2203.html](https://www.orgleaf.com/2203.html)				
+[2] [https://www.orgleaf.com/2224.html](https://www.orgleaf.com/2224.html)			
 [3] [https://wzfou.com/nextcloud-aria2/](https://wzfou.com/nextcloud-aria2/)
