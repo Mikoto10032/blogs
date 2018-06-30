@@ -124,12 +124,12 @@ bt-save-metadata=true
 #定时保存会话，需要1.16.1之后的某个release版本
 #save-session-interval=60
 ```    	
-* **启动aria2**	
+* **启动aria2**		
 
-
-    aria2c --conf-path=/aria2/aria2.conf -D
-    aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c -D
-
+```
+aria2c --conf-path=/aria2/aria2.conf -D
+aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c -D
+```
 * PS：貌似重新启动后要重新启动aria2？
 
 # 二、安装AriaNg管理面板			
@@ -297,7 +297,7 @@ snap install nextcloud
 * **将aria2的下载目录改成snap的数据目录后nextcloud就可以查看aria2下载的文件了**	
 目录是：`/var/snap/nextcloud/common/nextcloud/data`		
 
-PS：[aria2实现下载上传到GoogleDrive](test)			
+PS：[aria2实现下载上传到GoogleDrive](https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/aria2%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0gooledrive/)			
 
 参考：			
 [1] [https://www.orgleaf.com/2203.html](https://www.orgleaf.com/2203.html)				
