@@ -4,6 +4,7 @@ title: "Linux使用SSR客户端"
 tags:
     - SSR
     - Linux
+    - 翻墙
 categories:
     - 程序员那些事
 comment: true

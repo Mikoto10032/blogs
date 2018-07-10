@@ -158,13 +158,13 @@ wget http://dl.138vps.com/linux/ariang.tar.gz
 * 解压	：
 
 ```
-tar -xzvf ariang.tar.gz		
+tar zxvf ariang.tar.gz		
 ```
 
 * 移动到Apache网站目录：
 
 ```    
-cp -r /ariang /var/www/html	
+cp -r ./ariang /var/www/html	
 ```
 * 修改权限：
 
@@ -252,6 +252,10 @@ chmod 775 /var/www/html/nextcloud
 ```
 chown www-data /mydownload
 chmod 775 /mydownload
+```
+
+```
+chmod 770 /var/www/html/nextcloud -Rf & chown www-data /var/www/html/nextcloud -Rf
 ```
 * 刷新网页后，提示有模块未安装	
 
