@@ -14,8 +14,9 @@ mathjax: True
 
 ### 教育经历
 
-* 本科·[华南理工大学计算机科学与技术专业](<http://www.scut.edu.cn/cs/>)
 * 硕士·[华南理工大学计算机科学与技术专业](<http://www.scut.edu.cn/cs/>)
+
+* 本科·[华南理工大学计算机科学与技术专业](<http://www.scut.edu.cn/cs/>)
 
 ### 实验室
 
